@@ -1,0 +1,27 @@
+El origen de Hadoop se remonta a 2004, cuando el ingeniero de software Doug Cutting(creador de Hadoop, Nutch, Lucene y Avro), 
+que por el momento se encontraba trabajando para una de las empresa que a mi parecer es la mas grandes de este mundo que es 
+Google, y el empezó a e o hacer su documento de técnicas para el manejar de grandes volúmenes de datos. 
+el tubo la idea de poder desgranarlo en problemas cada vez más pequeños para hacerlos abordables. Poco después se marchó a 
+Yahoo! y allí siguió investigando hasta completar el desarrollo de la plataforma en 2008. El propio buscador utilizaría la 
+tecnología para su negocio, así como otras grandes compañías de Internet, como Facebook, Twitter o eBay.
+La procedencia del nombre es mucho menos técnica de lo que se podía esperar. El hijo de tres años de Cutting llamaba a 
+su peluche Hadoop y así bautizó su inventor a la plataforma, que también tomaría de ahí su logo, un elefante amarillo.
+
+Hadoop como iniciativa Open Source (software libre) a raíz de la publicación de varios papers de Google 
+sobre sus sistemas de archivo, su herramienta de mapas y el sistema BigTable Reduce. Como resultado nació un 
+conjunto de soluciones en el entorno Apache: HDFS Apache, Apache MapReduce y Apache HBase; que se conocen como Hadoop, 
+con herramientas como Sqoop (para importar datos estructurados en Hadoop cluster) o NoSQL (para realizar el análisis de 
+los datos no estructurados) entre otros.
+
+No se trata de una acusación (más) a los del buscador de Mountain View. Pero es cierto: Google tiene la
+“culpa” del nacimiento de Hadoop. Al menos de forma indirecta: a finales de 2004 dos empleados de
+Google (Jeffrey Dean y Sanjay Ghemawat) publicaron un trabajo sobre un algoritmo llamado MapReduce, 
+titulado MapReduce: simplified data processing on large clusters. En esa época, Doug Cutting estaba 
+trabajando justamente en la escalabilidad de Nutch, otro de sus proyectos open source, una araña para 
+buscar información por Internet. El problema es que no conseguía que fuera lo suficientemente potente 
+como para poder realizar búsquedas en toda Internet. En aquel momento, Cutting trabajaba en Yahoo! y se 
+percató de las implicaciones que tenía la publicación de Dean y Ghemawat para las búsquedas online.
+
+MapReduce fue la solución que Cutting necesitaba para Nutch y dio pie al nacimiento de Hadoop,Sin embargo, 
+no acaban ahí las “culpas” de Google en relación con Hadoop, porque el sistema de ficheros de Nutch, llamado NDFS, 
+que sirvió como base para Hadoop, también fue inspirado por un proyecto de Google Labs, el Google File System.
